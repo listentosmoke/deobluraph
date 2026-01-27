@@ -1,0 +1,136 @@
+{
+  "opcodes": {
+    "192": {
+      "type": "UNKNOWN",
+      "context": " then x=S[w];K*=x;else(X)[N[w]]=V[7](_[w]);end;end"
+    },
+    "149": {
+      "type": "RETURN",
+      "context": " then if V[0X1b]~=V[0b11000]then else(V)[0X1c],V[0"
+    },
+    "161": {
+      "type": "MOVE",
+      "context": " then(y[d[w]])[X[_[w]]]=(m[w]);else(X)[N[w]]=X[_[w"
+    },
+    "110": {
+      "type": "UNKNOWN",
+      "context": " then a=(U[w]);else(X)[_[w]]=S[w]<=m[w];end;end;el"
+    },
+    "113": {
+      "type": "RETURN",
+      "context": " then if X[N[w]]then if V[0X1A]~=h then else while"
+    },
+    "107": {
+      "type": "POW",
+      "context": " then i=(N[w]);(X)[i]=X[i](X[i+1]);I=(i);else(X)[_"
+    },
+    "131": {
+      "type": "LE",
+      "context": " then X[_[w]]=(q);else i=_[w];a=(X[N[w]]);X[i+0X1]"
+    },
+    "128": {
+      "type": "EQ",
+      "context": " then(X)[N[w]]=X[d[w]]~=U[w];else X[d[w]]=U[w]<m[w"
+    },
+    "125": {
+      "type": "MOVE",
+      "context": " then i=(X);a=(N[w]);K=X;else X[N[w]]=X[_[w]]//X[d"
+    },
+    "143": {
+      "type": "JUMP",
+      "context": " then(X)[d[w]]=V[0X1__8][_[w]];else if V[0X17]==V["
+    },
+    "134": {
+      "type": "GETTABUP",
+      "context": " then(X)[d[w]]=y[N[w]][U[w]];else X[N[w]]={};end;e"
+    },
+    "26": {
+      "type": "GETTABUP",
+      "context": " then i=y[d[w]];(i[0X3][i[0B10]])[U[w]]=(m[w]);els"
+    },
+    "29": {
+      "type": "LEN",
+      "context": " then i=_[w];X[i]=X[i](X[i+1],X[i+0X2]);I=(i);else"
+    },
+    "32": {
+      "type": "UNKNOWN",
+      "context": " then for W=d[w],_[w],1 do(X)[W]=nil;end;else x=x["
+    },
+    "35": {
+      "type": "JUMP",
+      "context": " then if h==V[0X24]then else if not(not(S[w]<X[_[w"
+    },
+    "47": {
+      "type": "JUMP",
+      "context": " then if m[w]==X[_[w]]then else w=d[w];end;else x="
+    },
+    "44": {
+      "type": "UNKNOWN",
+      "context": " then(X)[d[w]]=(m[w]==U[w]);else X[d[w]][U[w]]=(X["
+    },
+    "41": {
+      "type": "LE",
+      "context": " then if not(X[_[w]]<=X[N[w]])then else if V[0X2__"
+    },
+    "5": {
+      "type": "RETURN",
+      "context": " then i=(X);if V[0B1101__1]~=V[24]then else return"
+    },
+    "2": {
+      "type": "UNKNOWN",
+      "context": " then if H then for W,Y in H do if W>=1 then(Y)[0B"
+    },
+    "20": {
+      "type": "UNKNOWN",
+      "context": " then x=x[v];K+=x;(i)[a]=(K);else a=N[w];K=X;x=(d["
+    },
+    "80": {
+      "type": "POW",
+      "context": " then X[d[w]]=X[_[w]]%m[w];else K=S[w];x=(X);v=_[w"
+    },
+    "83": {
+      "type": "UNKNOWN",
+      "context": " then i=(0XBE);a=0X0;K=nil;x=0b1111010;while true "
+    },
+    "77": {
+      "type": "UNKNOWN",
+      "context": " then u[S[w]]=U[w];else if V[34]==V[0X18]then else"
+    },
+    "92": {
+      "type": "UNKNOWN",
+      "context": " then i=d[w];X[i](X[i+0X1]);I=(i-0x1);else X[_[w]]"
+    },
+    "89": {
+      "type": "UNKNOWN",
+      "context": " then if H then for W,e in H do if not(W>=0x1)then"
+    },
+    "86": {
+      "type": "MOVE",
+      "context": " then i=(d[w]);a=(_[w]);for W=i,a do K=X;x=W;W=nil"
+    },
+    "68": {
+      "type": "UNKNOWN",
+      "context": " then if V[0x20]==V[0xF]then else c=({[0B100]=Q,[0"
+    },
+    "65": {
+      "type": "UNKNOWN",
+      "context": " then x=m[w];K%=x;else u[m[w]]=X[_[w]];end;end;end"
+    },
+    "50": {
+      "type": "UNKNOWN",
+      "context": " then i=(_[w]);a=(d[w]);K=(N[w]);if a==0X0 then el"
+    },
+    "53": {
+      "type": "UNKNOWN",
+      "context": " then(X)[d[w]]=X[_[w]]<m[w];else x=N[w];K=K[x];(i)"
+    },
+    "56": {
+      "type": "GETTABLE",
+      "context": " then(X)[N[w]]=(X[_[w]][X[d[w]]]);else K-=x;i[a]=K"
+    }
+  },
+  "bytecode_sizes": [
+    596536
+  ],
+  "handler_count": 80
+}
