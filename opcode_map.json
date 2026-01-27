@@ -1,0 +1,7 @@
+{
+  "0x00": "MOVE",
+  "0x01": "CALL",
+  "0x50": "MOVE",
+  "0x56": "MOVE",
+  "0x38": "GETTABLE"
+}

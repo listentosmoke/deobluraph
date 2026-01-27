@@ -1,0 +1,61 @@
+--[[ Reconstructed Lua Code ]]--
+-- Decompiled from Luraph v14.5.2 obfuscated bytecode
+
+-- String constants found:
+-- 'jcDh'
+-- '0tN,:'
+-- 'o33E'
+-- 'aFB?N('
+-- 'O+4I'
+-- 'K(rO'
+-- '{@#A'
+-- 'PUT0'
+-- 'y" "'
+-- 'W&D)'
+-- '%^\\t'
+-- '_zkW~'
+-- 'f"G5'
+-- 'A]s-'
+-- '%_J`q'
+-- '!,BD'
+-- 'txFjD'
+-- '/dPr'
+-- 'qwSc'
+-- 'n<n9'
+-- 'Gvj7'
+-- 'j1QK'
+-- '~N5$'
+-- '%Z/O'
+-- 'pl``6'
+-- '@8i8'
+-- 'W(%d,D'
+-- '&0ks%NI'
+-- 'N*|~'
+-- 'rX$=wR'
+-- 'EggC<'
+-- '*K/,'
+-- ')X6*<'
+-- 't{Ue'
+-- 'S%_C'
+-- 'r~1@H'
+-- 'i\\^`t'
+-- ')G(v>'
+-- 'T(Uw'
+-- '9PLfx'
+-- 'kLZI'
+-- 'a,v>'
+-- '72 ?'
+-- 'mozz9$%'
+-- 'EK8Q'
+-- 'TS<rj"x'
+-- 'A.^['
+-- 'k7"K#'
+-- '%bPd+'
+-- 'l6*]'
+
+-- Opcode map:
+-- 0x00: ADD
+-- 0x44: ADD
+-- 0x5F: UNKNOWN
+-- 0x83: UNKNOWN
+-- 0xB9: UNKNOWN
