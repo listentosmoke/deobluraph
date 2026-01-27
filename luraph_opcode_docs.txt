@@ -1,0 +1,24 @@
+======================================================================
+LURAPH VM OPCODE DOCUMENTATION
+======================================================================
+
+Total opcodes: 4
+Total operation types: 4
+
+OPERATION TYPES:
+
+FORPREP:
+  Opcodes: 0x44
+  Count: 1
+
+JMP:
+  Opcodes: 0x9B
+  Count: 1
+
+MOVE:
+  Opcodes: 0x35
+  Count: 1
+
+SETTABLE:
+  Opcodes: 0xBC
+  Count: 1
