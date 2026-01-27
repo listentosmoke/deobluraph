@@ -1,0 +1,16 @@
+-- ========================================
+-- LURAPH BYTECODE CAPTURE
+-- ========================================
+
+-- Loading VM...
+-- Loaded 825592 bytes
+-- Executing loader...
+lua5.4: [string "vm"]:1: attempt to call a nil value (field 'integer index')
+stack traceback:
+	[string "vm"]:1: in method 'RS'
+	[string "vm"]:1: in local 'y'
+	[string "vm"]:1: in method 'tS'
+	[string "vm"]:1: in method 'wS'
+	[string "vm"]:1: in local 'loader'
+	/tmp/full_capture.lua:140: in main chunk
+	[C]: in ?
