@@ -1,0 +1,10 @@
+=== TRACE LOG ===
+LOAD #2: 5 bytes
+LOAD #3: 24 bytes
+Captured VM code: 24 bytes
+LOAD #5: 836745 bytes
+Captured VM code: 836745 bytes
+
+=== FUNCTION CALLS ===
+
+=== STRING ACCESSES ===

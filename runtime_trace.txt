@@ -1,0 +1,4 @@
+=== RUNTIME TRACE ===
+
+Total operations: 0
+

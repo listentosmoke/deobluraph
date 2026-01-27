@@ -1,0 +1,17 @@
+{
+  "0x00": "EQ",
+  "0x05": "LE",
+  "0x14": "LOADK",
+  "0x20": "GETUPVAL",
+  "0x23": "JMP",
+  "0x35": "LOADK",
+  "0x38": "GETTABLE",
+  "0x41": "LOADK",
+  "0x44": "JMP",
+  "0x50": "LOADK",
+  "0x56": "GETUPVAL",
+  "0x59": "LT",
+  "0x6B": "POW",
+  "0x71": "JMP",
+  "0x83": "MOVE"
+}
