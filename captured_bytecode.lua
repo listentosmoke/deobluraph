@@ -1,0 +1,6 @@
+-- Luraph VM Bytecode Capture
+-- Tue Jan 27 10:31:41 2026
+
+-- Loading VM code...
+-- Loaded 825592 bytes
+-- Executing VM loader...
