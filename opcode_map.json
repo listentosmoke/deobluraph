@@ -1,7 +1,130 @@
 {
-  "0x00": "MOVE",
-  "0x01": "CALL",
-  "0x50": "MOVE",
-  "0x56": "MOVE",
-  "0x38": "GETTABLE"
+  "192": {
+    "type": "UNKNOWN",
+    "raw": "x=S[w]"
+  },
+  "149": {
+    "type": "UNKNOWN",
+    "raw": "if V[0X1b]~=V[0b11000]then else(V)[0X1c],V[0x23]=0B11000001,"
+  },
+  "161": {
+    "type": "UNKNOWN",
+    "raw": "(y[d[w]])[X[_[w]]]=(m[w])"
+  },
+  "110": {
+    "type": "UNKNOWN",
+    "raw": "a=(U[w])"
+  },
+  "113": {
+    "type": "UNKNOWN",
+    "raw": "if X[N[w]]then if V[0X1A]~=h then else while-0X87 do return "
+  },
+  "107": {
+    "type": "UNKNOWN",
+    "raw": "i=(N[w])"
+  },
+  "131": {
+    "type": "UNKNOWN",
+    "raw": "X[_[w]]=(q)"
+  },
+  "128": {
+    "type": "NEK",
+    "raw": "(X)[N[w]]=X[d[w]]~=U[w]"
+  },
+  "125": {
+    "type": "UNKNOWN",
+    "raw": "i=(X)"
+  },
+  "143": {
+    "type": "UNKNOWN",
+    "raw": "(X)[d[w]]=V[0X1__8][_[w]]"
+  },
+  "134": {
+    "type": "GETTABUP",
+    "raw": "(X)[d[w]]=y[N[w]][U[w]]"
+  },
+  "26": {
+    "type": "UNKNOWN",
+    "raw": "i=y[d[w]]"
+  },
+  "29": {
+    "type": "UNKNOWN",
+    "raw": "i=_[w]"
+  },
+  "32": {
+    "type": "UNKNOWN",
+    "raw": "for W=d[w],_[w],1 do(X)[W]=nil"
+  },
+  "35": {
+    "type": "LTK",
+    "raw": "if h==V[0X24]then else if not(not(S[w]<X[_[w]]))then else w="
+  },
+  "47": {
+    "type": "EQK",
+    "raw": "if m[w]==X[_[w]]then else w=d[w]"
+  },
+  "44": {
+    "type": "EQK",
+    "raw": "(X)[d[w]]=(m[w]==U[w])"
+  },
+  "41": {
+    "type": "LE",
+    "raw": "if not(X[_[w]]<=X[N[w]])then else if V[0X2__4]==h then while"
+  },
+  "5": {
+    "type": "UNKNOWN",
+    "raw": "i=(X)"
+  },
+  "2": {
+    "type": "UNKNOWN",
+    "raw": "if H then for W,Y in H do if W>=1 then(Y)[0B11]=(Y)"
+  },
+  "20": {
+    "type": "UNKNOWN",
+    "raw": "x=x[v]"
+  },
+  "80": {
+    "type": "MODK",
+    "raw": "X[d[w]]=X[_[w]]%m[w]"
+  },
+  "83": {
+    "type": "UNKNOWN",
+    "raw": "i=(0XBE)"
+  },
+  "77": {
+    "type": "UNKNOWN",
+    "raw": "u[S[w]]=U[w]"
+  },
+  "92": {
+    "type": "UNKNOWN",
+    "raw": "i=d[w]"
+  },
+  "89": {
+    "type": "UNKNOWN",
+    "raw": "if H then for W,e in H do if not(W>=0x1)then else if V[0X25]"
+  },
+  "86": {
+    "type": "UNKNOWN",
+    "raw": "i=(d[w])"
+  },
+  "68": {
+    "type": "UNKNOWN",
+    "raw": "if V[0x20]==V[0xF]then else c=({[0B100]=Q,[0B101]=A,[3]=c,[0"
+  },
+  "65": {
+    "type": "UNKNOWN",
+    "raw": "x=m[w]"
+  },
+  "50": {
+    "type": "UNKNOWN",
+    "raw": "i=(_[w])"
+  },
+  "53": {
+    "type": "UNKNOWN",
+    "raw": "(X)[d[w]]=X[_[w]]<m[w]"
+  },
+  "56": {
+    "type": "GETTABLE",
+    "raw": "(X)[N[w]]=(X[_[w]][X[d[w]]])"
+  }
 }
