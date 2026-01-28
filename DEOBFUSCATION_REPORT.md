@@ -104,6 +104,23 @@ end
 - **Opcode dispatch**: Lines 750-1500+ (nested if/else chain)
 - **Base85 decoder**: First setmetatable call with `__index`
 
+## What Was Captured vs What Remains
+
+### Successfully Captured
+- **VM Interpreter**: 836KB of Lua source code for the Luraph virtual machine
+- **Opcode Handlers**: 125 functions that execute individual VM instructions
+- **VM Structure**: How registers, stack, and constants are organized
+
+### Still Encoded (Requires Further Work)
+- **User Bytecode**: The original script is compiled to bytecode embedded in base85 strings
+- **Original Source**: Would require building a Luraph bytecode decompiler
+
+### To Fully Recover Original Source
+1. Extract bytecode from the 15,713 encoded strings
+2. Reverse engineer the Luraph bytecode format from the VM handlers
+3. Build a decompiler that maps opcodes back to Lua operations
+4. Reconstruct control flow and variable names
+
 ## Conclusion
 
-The Luraph protection has been bypassed by running the script in an unsandboxed Luau environment and capturing the decompressed code before execution. The captured code reveals the complete VM implementation, which can be further analyzed to understand the original program logic.
+The Luraph protection has been bypassed by running the script in an unsandboxed Luau environment and capturing the decompressed code before execution. The captured code reveals the complete VM implementation. However, the **actual user code remains as bytecode** within the VM's data structures. Full deobfuscation would require building a decompiler for the Luraph bytecode format.
